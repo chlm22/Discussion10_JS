@@ -372,7 +372,6 @@ ul{
         letter-spacing: 2px;
         padding: 5px 10px 50px 10px;
         color: #000000;
-        font-size:12px;
     }
     
     .image-recipe, .image-travel{
@@ -389,6 +388,9 @@ ul{
 
     .recipe-div, .travel-div{
         padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
 
     .recipe, .location-characteristics{
@@ -450,7 +452,6 @@ ul{
         width: 220px;
     }
     
-
     #gp1{
 height: 180px;
 width: 205px;
